@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- viewport-fit=cover needed for handling padding with multitouch gestures -->
+    <meta name="viewport" content="width=device-width,viewport-fit=cover">
+    <title>Store notes and learning goals while you are coding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <meta name="theme-color" content="#ffc252">
+    <!-- Required for Apple homescreen icon -->
+    <link rel="apple-touch-icon" href="images/icon-512.png">
+    <script src="app.js"></script>
+    <script src="sw-register.js"></script>
+</head>
+
+<body>
+    <h1>Codepad Masters</h1>
+    <form>
+        <textarea placeholder="Enter your new note"></textarea>
+        <ul id="toolbar">
+            <li>
+                <button type="submit">
+                    <span class="icon">save</span>                
+                    Save
+                </button>
+            </li>
+        </ul>
+    </form>
+    <ul id="toolbar">
+        <li>
+            <button id="btnLearn">
+                <span class="icon">school</span>                
+                Learn                 
+            </button>
+        </li>
+        <li>
+            <button id="btnShare">
+                <span class="icon">share</span>                
+                Share                 
+            </button>
+        </li>
+        <li id="itemInstall">
+            <button id="btnInstall">
+                <span class="icon">download</span>                
+                Install                 
+            </button>
+        </li>
+    </ul>
+    <ul id="notes">
+
+
+    </ul>
+</body>
+</html>
