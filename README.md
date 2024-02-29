@@ -1,4 +1,6 @@
-# Frontend Masters Course - Building Progressive Web Apps from Scratch
+# Frontend Masters Course
+
+# [Building Progressive Web Apps from Scratch](https://frontendmasters.com/courses/pwas/)
 
 ## What will be covered
 - Start with a web app
